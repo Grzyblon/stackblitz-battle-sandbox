@@ -1,10 +1,10 @@
 import React from 'react';
 
-const BattleWindow = () => {
+const Battle = () => {
   // Create an array to represent the grid positions
   const gridPositions = [
-    ['Front Left', 'Front Center', 'Front Right'],
     ['Back Left', 'Back Center', 'Back Right'],
+    ['Front Left', 'Front Center', 'Front Right'],
   ];
 
   // Map over the positions and render them as grid items
@@ -21,4 +21,4 @@ const BattleWindow = () => {
   return <div className="battle-window">{gridItems}</div>;
 };
 
-export default BattleWindow;
+export default Battle;

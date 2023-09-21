@@ -14,3 +14,24 @@ h1 {
   font-weight: 800;
   font-size: 1.5rem;
 }
+
+.battle-window {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin: 20px;
+}
+
+.row {
+  display: grid;
+  justify-content: space-between;
+}
+
+.position {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
